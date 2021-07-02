@@ -1,3 +1,5 @@
+[![.NET](https://github.com/msmithtcg/LogLevelRuntimeSwitching/actions/workflows/dotnet.yml/badge.svg)](https://github.com/msmithtcg/LogLevelRuntimeSwitching/actions/workflows/dotnet.yml)
+
 # Run-time Log Level Switching for Serilog
 
 ## Run it yourself
