@@ -31,3 +31,7 @@ ie:
 ## How does it work?
 
 Based on the value configured in `checkIntervalMs`, the SHA of the configuration repository will be checked at a specified interval. If the SHA has changed, it will pull down the new version, overwrite the `logging:configFile` file, and reconfigure the logging level for Serilog.
+
+## Next Steps?!
+
+* The timer is yucky. It should be moved to a hosted service maybe? If it was an API or something that could receive webhook calls .. that'd cut down on the polling as well!
